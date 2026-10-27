@@ -1,6 +1,10 @@
 import axios from "axios";
+const isLocal = ["localhost", "127.0.0.1"].includes(window.location.hostname);
+const baseURL =
+  import.meta.env.VITE_API_URL ||
+  (isLocal ? "http://localhost:5000/api" : "https://jobtrail-d7po.onrender.com/api");
 
-const api = axios.create({ baseURL: import.meta.env.VITE_API_URL || "http://localhost:5000/api", timeout: 30000 });
+const api = axios.create({ baseURL, timeout: 30000 });
 
 api.interceptors.request.use((config) => {
   const token = localStorage.getItem("token");
