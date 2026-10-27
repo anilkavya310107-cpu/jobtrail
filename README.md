@@ -166,7 +166,7 @@ Invalid input returns clear messages, an invalid stage jump returns `400` with t
 
 **Watch the demo (about 3 to 5 minutes):**
 
-**Video link:** `PASTE YOUR VIDEO LINK HERE`
+**Video link:** (https://drive.google.com/file/d/1XUuVDChzbYknsztsj2RqjKq1CIX6gcfa/view?usp=sharing)
 
 <!-- Optional: embed a clickable thumbnail that opens the video.
 [![Jobtrail demo](PASTE_THUMBNAIL_IMAGE_URL_HERE)](PASTE_YOUR_VIDEO_LINK_HERE)
